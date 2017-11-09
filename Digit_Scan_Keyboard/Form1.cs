@@ -87,7 +87,7 @@ namespace Digit_Scan_Keyboard
         //Метод обработки полученных данных
         private void si_DataReceived(string data)
         {
-            textBoxRx.Text += data + Environment.NewLine;
+            textBoxRx.Text += data;
         }
 
         //Делегат для функции si_DataReceived
